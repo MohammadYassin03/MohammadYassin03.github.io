@@ -1627,3 +1627,10 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* Grouped skills */
+.skills-grouped { margin-top: 20px; }
+.skills-grouped h5 { font-weight: 700; margin-bottom: 14px; }
+.skill-group { margin-bottom: 14px; }
+.skill-group > strong { display: block; font-size: 14px; margin-bottom: 6px; color: var(--heading-color); }
+.skill-tag { display: inline-block; margin: 0 6px 6px 0; padding: 4px 12px; font-size: 13px; border-radius: 50px;
+  background: color-mix(in srgb, var(--accent-color), transparent 88%); color: var(--accent-color); }
