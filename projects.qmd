@@ -2,7 +2,22 @@
 title: "Projects"
 subtitle: "Selected work from my Data Science & Analytics coursework at Georgetown"
 listing:
-  contents: projects
+  contents:
+    - "projects/*.qmd"
+    - "!projects/dream-audit.qmd"
+    - "!projects/olive-trees.qmd"
+    - title: "The American Dream, Audited"
+      description: "Six decades of US economic data, measured in hours of labor."
+      image: images/projects/dream-card.jpg
+      categories: ["Data Storytelling"]
+      order: 1
+      path: https://dream.myassin.georgetown.domains/
+    - title: "What the Olive Trees Saw"
+      description: "Settlement expansion and its impact on land in the West Bank."
+      image: images/projects/olive-burin.jpg
+      categories: ["Data Storytelling"]
+      order: 2
+      path: https://olives.myassin.georgetown.domains/
   type: grid
   grid-columns: 3
   sort: "order"
