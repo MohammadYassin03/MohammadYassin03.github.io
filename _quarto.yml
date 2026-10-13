@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Mohammad Yassin"
+  site-url: https://mohammadyassin03.github.io
+  favicon: images/favicon.png
+  description: "Data science, machine learning and product. M.S. Data Science & Analytics at Georgetown."
+  navbar:
+    background: primary
+    right:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: resume.qmd
+        text: Resume
+      - href: contact.qmd
+        text: Contact
+      - icon: github
+        href: https://github.com/MohammadYassin03
+        aria-label: GitHub
+  page-footer:
+    center: "&copy; Mohammad Yassin. Built with [Quarto](https://quarto.org)."
+
+format:
+  html:
+    theme:
+      light: [flatly, styles.scss]
+    css: styles.css
+    toc: false
+    smooth-scroll: true

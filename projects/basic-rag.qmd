@@ -1,0 +1,35 @@
+---
+title: "Basic RAG Pipeline"
+subtitle: "Basic RAG Pipeline"
+description: "A local retrieval-augmented Q&A system with LangChain, Qdrant and Ollama."
+image: /images/projects/rag-card.svg
+categories: ["GenAI Engineering"]
+order: 8
+---
+
+![](/images/projects/rag-card.svg){fig-alt="Basic RAG Pipeline figure"}
+
+A retrieval-augmented generation pipeline over six synthetic shareholder letters, running entirely on a laptop. Documents are chunked, embedded with a local model, stored in a local Qdrant database, and queried by a local LLM, with no API keys and no cloud calls.
+
+## What I explored
+
+- **Answering:** 12 year-specific questions answered from retrieved context.
+- **Hallucination:** prompts designed to push the model into inventing answers, and how grounding changes that.
+- **Metadata:** putting the year into the chunk text, then query rewriting, to fix retrieval that mixes up years.
+- **Retrieval strategies:** Qdrant payload filtering, MMR for diversity, and a BM25 plus vector hybrid, compared on the same questions.
+- **Write-up:** a hand-written explanation of RAG and a FAISS vs. Qdrant comparison.
+
+::: {.callout-note appearance="minimal"}
+## Project info
+- **Answering::** 12 year-specific questions answered from retrieved context.
+- **Hallucination::** prompts designed to push the model into inventing answers, and how grounding changes that.
+- **Metadata::** putting the year into the chunk text, then query rewriting, to fix retrieval that mixes up years.
+- **Retrieval strategies::** Qdrant payload filtering, MMR for diversity, and a BM25 plus vector hybrid, compared on the same questions.
+- **Write-up::** a hand-written explanation of RAG and a FAISS vs. Qdrant comparison.
+- **Course:** DSAN 6725 Applied Generative AI, Georgetown University
+- **Date:** Fall 2026
+- **Team:** Solo project
+- **Tools:** Python, LangChain, Qdrant, Ollama, BM25, uv
+
+
+:::

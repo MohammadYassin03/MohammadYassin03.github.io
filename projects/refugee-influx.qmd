@@ -1,0 +1,40 @@
+---
+title: "Predicting Refugee Influx"
+subtitle: "Predicting Refugee Influx: The Role of Conflict Contagion and National Refugee Policy"
+description: "Conflict contagion and national refugee policy as predictors."
+image: /images/projects/refugee-models.jpg
+categories: ["Machine Learning"]
+order: 6
+---
+
+::: {layout-ncol=3}
+![](/images/projects/refugee-models.jpg){fig-alt="Predicting Refugee Influx figure"}
+
+![](/images/projects/refugee-importance.jpg){fig-alt="Predicting Refugee Influx figure"}
+
+![](/images/projects/refugee-policy.jpg){fig-alt="Predicting Refugee Influx figure"}
+:::
+
+We built a country-year panel (170 countries, 4,929 observations, 1992-2024) from UNHCR, UCDP conflict data, World Bank indicators and the Dataset of World Refugee and Asylum Policies (DWRAP), then predicted which countries see a surge in refugee inflows. Neighbor-aggregated features capture conflict and policy in bordering countries.
+
+## Method
+
+- Target: top-quartile year-over-year log change in refugees hosted
+- Temporal split: train on 1992-2019, evaluate on a 2020-2024 holdout
+- Four models: logistic regression, XGBoost, XGBoost with geography, XGBoost with policy
+
+## Findings
+
+- Holdout ROC-AUC rose from 0.793 (logistic regression) to 0.839 (XGBoost with the 12 policy indices)
+- No conflict feature reached the top ten by permutation importance, since lagged refugee counts already absorb recent conflict
+- The model under-predicts sudden shocks such as Syria 2015, Afghanistan 2021 and Ukraine 2022
+
+::: {.callout-note appearance="minimal"}
+## Project info
+- **Course:** DSAN 5300 Statistical Learning, Georgetown University
+- **Date:** Spring 2026
+- **Team:** Team project with Tyler Blue, Alexander Garcia and Sazan Khalid
+- **Tools:** Python, XGBoost, scikit-learn, UNHCR, UCDP, World Bank, DWRAP
+
+[View repository](https://github.com/dsan-5300/2026-project-2026-20){.btn .btn-primary .btn-sm}
+:::

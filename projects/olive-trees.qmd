@@ -1,0 +1,35 @@
+---
+title: "What the Olive Trees Saw"
+subtitle: "What the Olive Trees Saw"
+description: "Settlement expansion and its impact on land in the West Bank."
+image: /images/projects/olive-burin.jpg
+categories: ["Data Storytelling"]
+order: 2
+---
+
+::: {layout-ncol=2}
+![](/images/projects/olive-burin.jpg){fig-alt="What the Olive Trees Saw figure"}
+
+![](/images/projects/olive-turmus.jpg){fig-alt="What the Olive Trees Saw figure"}
+:::
+
+A data-driven narrative about settlement expansion in the West Bank and its environmental and human impact. The project combines settlement footprints from Peace Now, event data from ACLED, and land use traced through OpenStreetMap and UN OCHA boundaries to test three claims: that expansion is continuous and increasing, that it grows close to Palestinian communities and farmland, and that olive groves sit at the intersection of it.
+
+## What is in it
+
+- Territorial and heat maps of events against settlement growth
+- Settlement-proximity analysis for communities and agricultural land
+- Linked views connecting harvest-season targeting, perpetrators, damage types and fatalities
+- Before-and-after satellite comparisons of individual villages
+
+It is a personal project as well as a technical one: the author's family is Palestinian, and the harvest calendar is part of how they grew up.
+
+::: {.callout-note appearance="minimal"}
+## Project info
+- **Course:** DSAN 5200 Data Visualization, Georgetown University
+- **Date:** Spring 2026
+- **Team:** Solo project
+- **Tools:** Python, Plotly, geospatial analysis, ACLED, OpenStreetMap, UN OCHA, Peace Now, Quarto
+
+[View repository](https://github.com/MohammadYassin03/what-the-olive-trees-saw){.btn .btn-primary .btn-sm}
+:::

@@ -1,0 +1,54 @@
+---
+title: "Mohammad Yassin"
+about:
+  template: trestles
+  image: images/profile.jpg
+  image-width: 14em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/MohammadYassin03
+    - icon: envelope
+      text: Email
+      href: mailto:m.a.yassin707@gmail.com
+---
+
+M.S. candidate in Data Science & Analytics at Georgetown University (B.S. Computer Science, 2025). Computer Science | Data Science | Product Management.
+
+I'm a Computer Science graduate now pursuing my Master's in Data Science & Analytics. I thrive at the crossroads of data and decision-making, whether it's uncovering actionable insights, shaping product roadmaps, or collaborating with diverse teams. I like translating complex concepts into simple stories, and I'm always eager to learn new tools and build solutions that deliver real value.
+
+Beyond the classroom, I'm driven by curiosity and impact, whether that's experimenting with new machine-learning techniques, mentoring peers in coding workshops, or diving into cross-functional projects to sharpen my business acumen. I'm fluent in English and Arabic.
+
+[See my projects](projects.qmd){.btn .btn-primary} [Resume](resume.qmd){.btn .btn-outline-primary}
+
+## Skills
+
+::: {.skill-group}
+**Languages**
+
+[Python]{.skill-tag} [R]{.skill-tag} [SQL]{.skill-tag} [Java]{.skill-tag}
+:::
+
+::: {.skill-group}
+**Machine learning**
+
+[scikit-learn]{.skill-tag} [XGBoost]{.skill-tag} [PyTorch]{.skill-tag} [CNNs]{.skill-tag} [Transformers]{.skill-tag}
+:::
+
+::: {.skill-group}
+**NLP & GenAI**
+
+[NLTK]{.skill-tag} [Stanza]{.skill-tag} [BERTopic]{.skill-tag} [LangChain]{.skill-tag} [RAG]{.skill-tag} [prompt engineering]{.skill-tag}
+:::
+
+::: {.skill-group}
+**Visualization**
+
+[Plotly]{.skill-tag} [Altair]{.skill-tag} [Shiny]{.skill-tag} [Tableau]{.skill-tag} [Quarto]{.skill-tag}
+:::
+
+::: {.skill-group}
+**Cloud & data**
+
+[AWS (Lambda, DynamoDB, S3, API Gateway)]{.skill-tag} [Streamlit]{.skill-tag} [Git]{.skill-tag}
+:::

@@ -1,0 +1,261 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Download PDF"
+  },
+  {
+    "objectID": "resume.html#summary",
+    "href": "resume.html#summary",
+    "title": "Resume",
+    "section": "Summary",
+    "text": "Summary\nComputer Science graduate (B.S., 2025) and M.S. candidate in Data Science & Analytics at Georgetown University. I blend technical rigor (Python, R, SQL, machine learning) with strategic vision, translating data into actionable insights and guiding cross-functional teams to deliver measurable impact.\nWashington, DC · m.a.yassin707@gmail.com"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\nMaster of Science in Data Science & Analytics, 2025 - 2027\nGeorgetown University, Washington, DC\nRelevant coursework: Data Science and Analytics, Probabilistic Modeling and Statistical Computing, Computational Linguistics (Advanced Python)\nBachelor of Science in Computer Science, 2021 - 2025\nHobart and William Smith Colleges, Geneva, NY\nMinors: Data Analytics, Entrepreneurial Studies\nAchievements: Hobart Dean’s List, Alger L. Adams Scholar, The Elizabeth and Ruth Young Peace Prize, The Martin Luther King Jr. Leadership Award, The Hobart and William Smith Spirit Award (Class of 2025)"
+  },
+  {
+    "objectID": "resume.html#professional-experience",
+    "href": "resume.html#professional-experience",
+    "title": "Resume",
+    "section": "Professional Experience",
+    "text": "Professional Experience\nProduct Marketing Intern, 2025 - Present\nYallah Medical, Remote, NY\n\nConducted market and competitor analysis to inform product roadmap and identify opportunities to differentiate digital health services\nCollaborated with designers and developers to restructure website architecture, improving navigation and aligning features with user needs\nProduced blog content and social media campaigns that grew user engagement and demonstrated product value\n\nResearch Assistant Lead, June 2024 - August 2024\nData Analytics Department @ HWS, Geneva, NY\n\nDesigned foundational data systems enabling a three-year environmental analytics project, ensuring scalability and continuity\nLed a cross-functional team of 5 student researchers in deploying a citywide IoT sensor network, coordinating data collection, technical design, and analysis\n\nData Science Intern, June 2023 - May 2025\nCareer Services, Hobart and William Smith Colleges, Geneva, NY\n\nBuilt a data pipeline in R to analyze employment trends among 5K+ graduates and inform strategy for student career readiness\nDelivered recommendations that improved employability, demonstrating ability to derive actionable insights from large datasets\nDesigned an interactive dashboard to visualize enrollment data, enhancing accessibility for 200+ faculty members\n\nCo-Founder, Mobile Active Recovery Service, June 2022 - August 2022\nHWS Summer Sandbox Accelerator, Geneva, NY\n\nAmong 15 winners selected from 200+ candidates to start a venture with the Startup Accelerator program\nEngaged in user and market research, pitch deck creation, and business development using lean startup methods\nDefined MVP requirements through 100+ customer interviews; collaborated with developers and mentors to prototype and pitch winning product concept"
+  },
+  {
+    "objectID": "projects/supply-chain.html",
+    "href": "projects/supply-chain.html",
+    "title": "Supply Chain Visibility Platform",
+    "section": "",
+    "text": "Shipment trackers are unreliable across the Middle East, so we built a cloud platform for logistics companies running import and export flows in the region. Iraq is the demo environment: simulated trucks move between Basra Port, Umm Qasr and depots in Baghdad, Mosul, Erbil and Kirkuk."
+  },
+  {
+    "objectID": "projects/supply-chain.html#architecture",
+    "href": "projects/supply-chain.html#architecture",
+    "title": "Supply Chain Visibility Platform",
+    "section": "Architecture",
+    "text": "Architecture\n\nA Python simulator sends batches of shipment events to API Gateway\nLambda validates and normalizes each batch, writes it to DynamoDB, and archives the raw batch to S3\nA Streamlit dashboard queries DynamoDB to show a live map, delivery-status breakdown and an active-shipments table\nOSRM routing and distance-based ETA predictions flag detours and late deliveries\n\nThe full report covers data collection, cleaning, supervised and unsupervised analysis, and the AWS design.\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5000, Georgetown University\nDate: Fall 2025\nTeam: Team project with Sazan Khalid and classmates\nTools: AWS (API Gateway, Lambda, DynamoDB, S3, IAM, CloudWatch), Python, Streamlit, OSRM, Quarto\n\nView repository"
+  },
+  {
+    "objectID": "projects/prompt-engineering.html",
+    "href": "projects/prompt-engineering.html",
+    "title": "Prompt Engineering, Measured",
+    "section": "",
+    "text": "Instead of tweaking prompts by feel, I scored them. Everything ran on a small local model (gemma3:1b) at temperature 0 with a fixed seed, so differences came from the prompt alone."
+  },
+  {
+    "objectID": "projects/prompt-engineering.html#sentiment-classification-100-movie-reviews",
+    "href": "projects/prompt-engineering.html#sentiment-classification-100-movie-reviews",
+    "title": "Prompt Engineering, Measured",
+    "section": "Sentiment classification, 100 movie reviews",
+    "text": "Sentiment classification, 100 movie reviews\n\n\n\n\n\n\n\n\nPrompt\nAccuracy\nUnparseable replies\n\n\n\n\nNaive\n0%\n100\n\n\nStructured (role, tags, output format)\n84%\n0\n\n\nStructured + few-shot examples\n86%\n0\n\n\n\nAlways answering ‘negative’ scores 58%, so both structured versions are well above guessing. The naive prompt scored zero only because its replies could not be parsed."
+  },
+  {
+    "objectID": "projects/prompt-engineering.html#other-tasks",
+    "href": "projects/prompt-engineering.html#other-tasks",
+    "title": "Prompt Engineering, Measured",
+    "section": "Other tasks",
+    "text": "Other tasks\n\nMeeting summarization with action items\nDocument QA with a refusal rule. A finding worth reporting: the model never refused either unanswerable question, with or without the constraint, so I documented the failure instead of hiding it.\nJinja prompt templates rendered from JSON inputs\nA five-turn stateless shopping chatbot with automated checks on its replies\n\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 6725 Applied Generative AI, Georgetown University\nDate: Fall 2026\nTeam: Solo project\nTools: Python, Ollama (gemma3:1b), Jinja2, JSON"
+  },
+  {
+    "objectID": "projects/olive-trees.html",
+    "href": "projects/olive-trees.html",
+    "title": "What the Olive Trees Saw",
+    "section": "",
+    "text": "A data-driven narrative about settlement expansion in the West Bank and its environmental and human impact. The project combines settlement footprints from Peace Now, event data from ACLED, and land use traced through OpenStreetMap and UN OCHA boundaries to test three claims: that expansion is continuous and increasing, that it grows close to Palestinian communities and farmland, and that olive groves sit at the intersection of it."
+  },
+  {
+    "objectID": "projects/olive-trees.html#what-is-in-it",
+    "href": "projects/olive-trees.html#what-is-in-it",
+    "title": "What the Olive Trees Saw",
+    "section": "What is in it",
+    "text": "What is in it\n\nTerritorial and heat maps of events against settlement growth\nSettlement-proximity analysis for communities and agricultural land\nLinked views connecting harvest-season targeting, perpetrators, damage types and fatalities\nBefore-and-after satellite comparisons of individual villages\n\nIt is a personal project as well as a technical one: the author’s family is Palestinian, and the harvest calendar is part of how they grew up.\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5200 Data Visualization, Georgetown University\nDate: Spring 2026\nTeam: Solo project\nTools: Python, Plotly, geospatial analysis, ACLED, OpenStreetMap, UN OCHA, Peace Now, Quarto\n\nView repository"
+  },
+  {
+    "objectID": "projects/fm-inference.html",
+    "href": "projects/fm-inference.html",
+    "title": "Foundation Model Inference APIs",
+    "section": "",
+    "text": "A hands-on study of how requests and responses work for foundation models, both on a local machine with Ollama and in the cloud."
+  },
+  {
+    "objectID": "projects/fm-inference.html#covered",
+    "href": "projects/fm-inference.html#covered",
+    "title": "Foundation Model Inference APIs",
+    "section": "Covered",
+    "text": "Covered\n\nRaw HTTP calls with curl and httpx, in synchronous and asynchronous form, plus the official Python clients\nZero-shot and few-shot prompting, temperature, top_p, stop sequences, reasoning effort, streaming and token usage\nEmbedding models and saved output for generation, embedding and async runs\nA written comparison of the OpenAI Chat Completions, OpenAI Responses and Anthropic Messages APIs: where the reply text, cut-off signal and reasoning tokens live in each, plus fields the course guide left out\n\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 6725 Applied Generative AI, Georgetown University\nDate: Fall 2026\nTeam: Solo project\nTools: Python, Ollama, httpx, OpenAI, Anthropic and Groq APIs, curl"
+  },
+  {
+    "objectID": "projects/dream-audit.html",
+    "href": "projects/dream-audit.html",
+    "title": "The American Dream, Audited",
+    "section": "",
+    "text": "A data-driven audit of what the American Dream actually paid out between 1960 and today, across three life stages and several demographic groups. Instead of treating the Dream as a sentiment, the project measures it in one unit: hours of full-time labor."
+  },
+  {
+    "objectID": "projects/dream-audit.html#headline-findings",
+    "href": "projects/dream-audit.html#headline-findings",
+    "title": "The American Dream, Audited",
+    "section": "Headline findings",
+    "text": "Headline findings\n\nThe hours of labor needed to buy a house rose from 5,903 in 1970 to 11,823 in 2020, even for the white men at the center of the original promise.\nMedical prices grew 2.4 times faster than the rest of consumer prices over the same window.\nThe Black household share of US net worth fell from 4.0% to 3.3% since 1989.\nBlack women’s life-expectancy gap with white women narrowed from 8 years in 1960 to under 3 years by 2017, the audit’s clearest case of a gap closing."
+  },
+  {
+    "objectID": "projects/dream-audit.html#how-it-was-built",
+    "href": "projects/dream-audit.html#how-it-was-built",
+    "title": "The American Dream, Audited",
+    "section": "How it was built",
+    "text": "How it was built\nAn idempotent five-stage pipeline (acquire, clean, analyze, build interactives, NLP) pulls from FRED, BLS, the US Census, NCES, CMS, CDC NCHS, the Federal Reserve Distributional Financial Accounts and the UCSB American Presidency Project. Results are published as a scrollytelling Quarto site with interactive Plotly charts, and a text-analysis layer (sentence-transformers and BERTopic) examines how presidents talked about the Dream.\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN Scholarship Project, Georgetown University\nDate: Spring 2026\nTeam: Solo project\nTools: Python, pandas, Plotly, scikit-learn, BERTopic, Quarto, FRED / BLS / Census / CDC data\n\nView live site View repository"
+  },
+  {
+    "objectID": "projects/basic-rag.html",
+    "href": "projects/basic-rag.html",
+    "title": "Basic RAG Pipeline",
+    "section": "",
+    "text": "A retrieval-augmented generation pipeline over six synthetic shareholder letters, running entirely on a laptop. Documents are chunked, embedded with a local model, stored in a local Qdrant database, and queried by a local LLM, with no API keys and no cloud calls."
+  },
+  {
+    "objectID": "projects/basic-rag.html#what-i-explored",
+    "href": "projects/basic-rag.html#what-i-explored",
+    "title": "Basic RAG Pipeline",
+    "section": "What I explored",
+    "text": "What I explored\n\nAnswering: 12 year-specific questions answered from retrieved context.\nHallucination: prompts designed to push the model into inventing answers, and how grounding changes that.\nMetadata: putting the year into the chunk text, then query rewriting, to fix retrieval that mixes up years.\nRetrieval strategies: Qdrant payload filtering, MMR for diversity, and a BM25 plus vector hybrid, compared on the same questions.\nWrite-up: a hand-written explanation of RAG and a FAISS vs. Qdrant comparison.\n\n\n\n\n\n\n\nProject info\n\n\n\n\nAnswering:: 12 year-specific questions answered from retrieved context.\nHallucination:: prompts designed to push the model into inventing answers, and how grounding changes that.\nMetadata:: putting the year into the chunk text, then query rewriting, to fix retrieval that mixes up years.\nRetrieval strategies:: Qdrant payload filtering, MMR for diversity, and a BM25 plus vector hybrid, compared on the same questions.\nWrite-up:: a hand-written explanation of RAG and a FAISS vs. Qdrant comparison.\nCourse: DSAN 6725 Applied Generative AI, Georgetown University\nDate: Fall 2026\nTeam: Solo project\nTools: Python, LangChain, Qdrant, Ollama, BM25, uv"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Reach out if you have any questions. You can also email me directly at m.a.yassin707@gmail.com.\n\n  \n  \n  \n  \n  \n    \n    \n    \n    \n    Send message"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mohammad Yassin",
+    "section": "",
+    "text": "M.S. candidate in Data Science & Analytics at Georgetown University (B.S. Computer Science, 2025). Computer Science | Data Science | Product Management.\nI’m a Computer Science graduate now pursuing my Master’s in Data Science & Analytics. I thrive at the crossroads of data and decision-making, whether it’s uncovering actionable insights, shaping product roadmaps, or collaborating with diverse teams. I like translating complex concepts into simple stories, and I’m always eager to learn new tools and build solutions that deliver real value.\nBeyond the classroom, I’m driven by curiosity and impact, whether that’s experimenting with new machine-learning techniques, mentoring peers in coding workshops, or diving into cross-functional projects to sharpen my business acumen. I’m fluent in English and Arabic.\nSee my projects Resume"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Mohammad Yassin",
+    "section": "Skills",
+    "text": "Skills\n\nLanguages\nPython R SQL Java\n\n\nMachine learning\nscikit-learn XGBoost PyTorch CNNs Transformers\n\n\nNLP & GenAI\nNLTK Stanza BERTopic LangChain RAG prompt engineering\n\n\nVisualization\nPlotly Altair Shiny Tableau Quarto\n\n\nCloud & data\nAWS (Lambda, DynamoDB, S3, API Gateway) Streamlit Git"
+  },
+  {
+    "objectID": "projects/coursework-labs.html",
+    "href": "projects/coursework-labs.html",
+    "title": "Coursework Labs",
+    "section": "",
+    "text": "A selection of labs from the core Data Science and Analytics sequence. These are short, focused exercises rather than full projects."
+  },
+  {
+    "objectID": "projects/coursework-labs.html#dsan-5000-data-science-foundations-python",
+    "href": "projects/coursework-labs.html#dsan-5000-data-science-foundations-python",
+    "title": "Coursework Labs",
+    "section": "DSAN 5000: Data Science Foundations (Python)",
+    "text": "DSAN 5000: Data Science Foundations (Python)\n\nCleaning tabular data\nRegression fundamentals\nClassification and feature selection\nNetwork analysis with NetworkX"
+  },
+  {
+    "objectID": "projects/coursework-labs.html#dsan-5100-probabilistic-modeling-r",
+    "href": "projects/coursework-labs.html#dsan-5100-probabilistic-modeling-r",
+    "title": "Coursework Labs",
+    "section": "DSAN 5100: Probabilistic Modeling (R)",
+    "text": "DSAN 5100: Probabilistic Modeling (R)\n\nConditional probability and continuous distributions\nMarkov chains (cave, maze and stock-market examples)\nTime series"
+  },
+  {
+    "objectID": "projects/coursework-labs.html#dsan-5200-data-visualization",
+    "href": "projects/coursework-labs.html#dsan-5200-data-visualization",
+    "title": "Coursework Labs",
+    "section": "DSAN 5200: Data Visualization",
+    "text": "DSAN 5200: Data Visualization\n\nInteractive charts with Plotly and Altair (including Hong Kong hospital wait times)\nShiny dashboards\nGeospatial maps\nNetwork visualization in Gephi\nTime series and Tableau\n\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5000, 5100 and 5200, Georgetown University\nDate: Fall 2025 to Spring 2026\nTeam: Individual labs\nTools: Python, R, Quarto, Plotly, Altair, Shiny, Tableau, Gephi, NetworkX"
+  },
+  {
+    "objectID": "projects/ecg-arrhythmia.html",
+    "href": "projects/ecg-arrhythmia.html",
+    "title": "ECG Arrhythmia Detection",
+    "section": "",
+    "text": "We built and compared three deep-learning approaches for classifying heartbeats from the MIT-BIH Arrhythmia Database into four classes: Normal, Supraventricular, Ventricular and Fusion. About 89% of beats are Normal, so models were selected on macro F1 rather than accuracy."
+  },
+  {
+    "objectID": "projects/ecg-arrhythmia.html#approach",
+    "href": "projects/ecg-arrhythmia.html#approach",
+    "title": "ECG Arrhythmia Detection",
+    "section": "Approach",
+    "text": "Approach\n\n250-sample windows around each R-peak, plus patient metadata and RR-interval features\nPartial SMOTE oversampling of minority classes; four augmentations for the hybrid model\nCNN baseline on 64x64 log-magnitude STFT spectrograms\nTransformer baseline on z-scored raw waveforms with patch embedding\nHybrid: pretrained EfficientNet-B0 patch tokens plus a metadata token fed to a Transformer encoder\nRandom hyperparameter search (15 configurations) per model"
+  },
+  {
+    "objectID": "projects/ecg-arrhythmia.html#results-test-set",
+    "href": "projects/ecg-arrhythmia.html#results-test-set",
+    "title": "ECG Arrhythmia Detection",
+    "section": "Results (test set)",
+    "text": "Results (test set)\n\n\n\nModel\nParams\nAccuracy\nMacro F1\n\n\n\n\nCNN baseline\n138k\n0.990\n0.930\n\n\nTransformer (raw waveform)\n103k\n0.976\n0.858\n\n\nHybrid CNN-Transformer\n6.6M\n0.986\n0.897\n\n\n\nThe small dual-branch CNN won on macro F1. The hybrid improved Supraventricular F1 but lost ground on the rare Fusion class.\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 6600 Neural Networks and Deep Learning, Georgetown University\nDate: Spring 2026\nTeam: Team project with Matthew Hakim, Laurent Julia Calac and Yi-Ting Chin\nTools: Python, PyTorch, EfficientNet-B0, Transformers, WFDB, SMOTE, STFT spectrograms\n\nView repository"
+  },
+  {
+    "objectID": "projects/fmbench-hardening.html",
+    "href": "projects/fmbench-hardening.html",
+    "title": "Hardening and Modernizing FMBench",
+    "section": "",
+    "text": "FMBench is an AWS tool that benchmarks foundation models across SageMaker, Bedrock, EKS and EC2. The constraint of this assignment: the pipeline cannot be run (it needs AWS infrastructure, quota and spend), so every change had to be made and verified without executing it. I used coding agents for the heavy lifting and treated verifying their work as the main skill."
+  },
+  {
+    "objectID": "projects/fmbench-hardening.html#what-i-did",
+    "href": "projects/fmbench-hardening.html#what-i-did",
+    "title": "Hardening and Modernizing FMBench",
+    "section": "What I did",
+    "text": "What I did\n\nUnderstood it: wrote an explainer, module map and architecture diagram, and recorded where the AI’s first reading of the code was wrong and how I caught it.\nHardened it: wrote 138 characterization tests, configured ruff, bandit, mypy and pytest, and triaged every bandit finding by hand with a verdict and justification.\nDe-notebooked it: its production pipeline was seven Jupyter notebooks executed by papermill. I made the case against that design and replaced the runner with a plain orchestrator, converting two notebooks, backed by stubbed unit tests and a call-sequence golden master.\nCross-checked it: had a second model review the refactor and adjudicated its findings against a rubric."
+  },
+  {
+    "objectID": "projects/fmbench-hardening.html#measured-results-modules-in-scope",
+    "href": "projects/fmbench-hardening.html#measured-results-modules-in-scope",
+    "title": "Hardening and Modernizing FMBench",
+    "section": "Measured results (modules in scope)",
+    "text": "Measured results (modules in scope)\n\n\n\nCheck\nBefore\nAfter\n\n\n\n\nTest coverage\n0%\n96.9%\n\n\nruff findings\n58\n1\n\n\nmypy errors\n32\n0\n\n\nbandit findings\n7\n3\n\n\n\nThe tools also surfaced real bugs, such as a module that calls logging.error without importing logging.\n\n\n\n\n\n\nProject info\n\n\n\n\nUnderstood it:: wrote an explainer, module map and architecture diagram, and recorded where the AI’s first reading of the code was wrong and how I caught it.\nHardened it:: wrote 138 characterization tests, configured ruff, bandit, mypy and pytest, and triaged every bandit finding by hand with a verdict and justification.\nDe-notebooked it:: its production pipeline was seven Jupyter notebooks executed by papermill. I made the case against that design and replaced the runner with a plain orchestrator, converting two notebooks, backed by stubbed unit tests and a call-sequence golden master.\nCross-checked it:: had a second model review the refactor and adjudicated its findings against a rubric.\nCourse: DSAN 6725 Applied Generative AI, Georgetown University\nDate: Fall 2026\nTeam: Solo project\nTools: Python, pytest, ruff, bandit, mypy, papermill, Claude Code"
+  },
+  {
+    "objectID": "projects/political-speech-nlp.html",
+    "href": "projects/political-speech-nlp.html",
+    "title": "Rhetorical Adaptation in Political Speech",
+    "section": "",
+    "text": "This project asks how political figures such as Bernie Sanders, JD Vance and Ron DeSantis adjust their language and sentiment depending on context: rallies, Senate floor speeches and bipartisan settings."
+  },
+  {
+    "objectID": "projects/political-speech-nlp.html#what-we-built",
+    "href": "projects/political-speech-nlp.html#what-we-built",
+    "title": "Rhetorical Adaptation in Political Speech",
+    "section": "What we built",
+    "text": "What we built\n\nThree installable Python packages (data collection, preprocessing, utils) managed with Poetry and covered by pytest\nA config-driven speech downloader that scrapes transcripts by politician and category\nA text cleaner that keeps proper nouns, numbers and sentence structure for linguistic analysis\nNotebooks for EDA, Stanza-based linguistic features, n-gram extraction and sentiment analysis\n\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5400 Computational Linguistics, Georgetown University\nDate: Fall 2025\nTeam: Team project with Erin Brzusek, Vinny Turtora, Sebastian Villalobos and Nikhil Patla\nTools: Python, NLTK, Stanza, sentiment analysis, n-grams, Poetry, pytest\n\nView repository"
+  },
+  {
+    "objectID": "projects/refugee-influx.html",
+    "href": "projects/refugee-influx.html",
+    "title": "Predicting Refugee Influx",
+    "section": "",
+    "text": "We built a country-year panel (170 countries, 4,929 observations, 1992-2024) from UNHCR, UCDP conflict data, World Bank indicators and the Dataset of World Refugee and Asylum Policies (DWRAP), then predicted which countries see a surge in refugee inflows. Neighbor-aggregated features capture conflict and policy in bordering countries."
+  },
+  {
+    "objectID": "projects/refugee-influx.html#method",
+    "href": "projects/refugee-influx.html#method",
+    "title": "Predicting Refugee Influx",
+    "section": "Method",
+    "text": "Method\n\nTarget: top-quartile year-over-year log change in refugees hosted\nTemporal split: train on 1992-2019, evaluate on a 2020-2024 holdout\nFour models: logistic regression, XGBoost, XGBoost with geography, XGBoost with policy"
+  },
+  {
+    "objectID": "projects/refugee-influx.html#findings",
+    "href": "projects/refugee-influx.html#findings",
+    "title": "Predicting Refugee Influx",
+    "section": "Findings",
+    "text": "Findings\n\nHoldout ROC-AUC rose from 0.793 (logistic regression) to 0.839 (XGBoost with the 12 policy indices)\nNo conflict feature reached the top ten by permutation importance, since lagged refugee counts already absorb recent conflict\nThe model under-predicts sudden shocks such as Syria 2015, Afghanistan 2021 and Ukraine 2022\n\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5300 Statistical Learning, Georgetown University\nDate: Spring 2026\nTeam: Team project with Tyler Blue, Alexander Garcia and Sazan Khalid\nTools: Python, XGBoost, scikit-learn, UNHCR, UCDP, World Bank, DWRAP\n\nView repository"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "The American Dream, Audited\n\n\n\nData Storytelling\n\n\n\nSix decades of US economic data, measured in hours of labor.\n\n\n\n\n\n\n\n\n\n\n\n\nWhat the Olive Trees Saw\n\n\n\nData Storytelling\n\n\n\nSettlement expansion and its impact on land in the West Bank.\n\n\n\n\n\n\n\n\n\n\n\n\nSupply Chain Visibility Platform\n\n\n\nCloud / Engineering\n\n\n\nReal-time shipment tracking on AWS with route and ETA analytics.\n\n\n\n\n\n\n\n\n\n\n\n\nECG Arrhythmia Detection\n\n\n\nDeep Learning\n\n\n\nCNN vs. Transformer vs. hybrid models on the MIT-BIH database.\n\n\n\n\n\n\n\n\n\n\n\n\nRhetorical Adaptation in Political Speech\n\n\n\nNLP\n\n\n\nHow politicians change their language and sentiment by audience.\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Refugee Influx\n\n\n\nMachine Learning\n\n\n\nConflict contagion and national refugee policy as predictors.\n\n\n\n\n\n\n\n\n\n\n\n\nHardening and Modernizing FMBench\n\n\n\nGenAI Engineering\n\n\n\nCharacterization tests, static analysis and de-notebooking for an 8,000-line AWS tool.\n\n\n\n\n\n\n\n\n\n\n\n\nBasic RAG Pipeline\n\n\n\nGenAI Engineering\n\n\n\nA local retrieval-augmented Q&A system with LangChain, Qdrant and Ollama.\n\n\n\n\n\n\n\n\n\n\n\n\nFoundation Model Inference APIs\n\n\n\nGenAI Engineering\n\n\n\nCalling LLMs and embedding models locally and through three cloud API formats.\n\n\n\n\n\n\n\n\n\n\n\n\nPrompt Engineering, Measured\n\n\n\nGenAI Engineering\n\n\n\nTesting what each part of a prompt is worth with a small local model.\n\n\n\n\n\n\n\n\n\n\n\n\nCoursework Labs\n\n\n\nCoursework\n\n\n\nLabs from DSAN 5000, 5100 and 5200 in Python and R.\n\n\n\n\n\nNo matching items"
+  }
+]

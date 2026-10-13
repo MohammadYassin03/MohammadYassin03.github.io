@@ -1,0 +1,33 @@
+---
+title: "The American Dream, Audited"
+subtitle: "The American Dream, Audited"
+description: "Six decades of US economic data, measured in hours of labor."
+image: /images/projects/dream-card.jpg
+categories: ["Data Storytelling"]
+order: 1
+---
+
+![](/images/projects/dream-card.jpg){fig-alt="The American Dream, Audited figure"}
+
+A data-driven audit of what the American Dream actually paid out between 1960 and today, across three life stages and several demographic groups. Instead of treating the Dream as a sentiment, the project measures it in one unit: hours of full-time labor.
+
+## Headline findings
+
+- The hours of labor needed to buy a house rose from 5,903 in 1970 to 11,823 in 2020, even for the white men at the center of the original promise.
+- Medical prices grew 2.4 times faster than the rest of consumer prices over the same window.
+- The Black household share of US net worth fell from 4.0% to 3.3% since 1989.
+- Black women's life-expectancy gap with white women narrowed from 8 years in 1960 to under 3 years by 2017, the audit's clearest case of a gap closing.
+
+## How it was built
+
+An idempotent five-stage pipeline (acquire, clean, analyze, build interactives, NLP) pulls from FRED, BLS, the US Census, NCES, CMS, CDC NCHS, the Federal Reserve Distributional Financial Accounts and the UCSB American Presidency Project. Results are published as a scrollytelling Quarto site with interactive Plotly charts, and a text-analysis layer (sentence-transformers and BERTopic) examines how presidents talked about the Dream.
+
+::: {.callout-note appearance="minimal"}
+## Project info
+- **Course:** DSAN Scholarship Project, Georgetown University
+- **Date:** Spring 2026
+- **Team:** Solo project
+- **Tools:** Python, pandas, Plotly, scikit-learn, BERTopic, Quarto, FRED / BLS / Census / CDC data
+
+[View live site](https://dream.myassin.georgetown.domains/){.btn .btn-primary .btn-sm}  [View repository](https://github.com/MohammadYassin03/dream-audit){.btn .btn-primary .btn-sm}
+:::
