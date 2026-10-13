@@ -1,11 +1,12 @@
 ---
 title: "The American Dream, Audited"
-subtitle: "The American Dream, Audited"
 description: "Six decades of US economic data, measured in hours of labor."
 image: /images/projects/dream-card.jpg
 categories: ["Data Storytelling"]
 order: 1
 ---
+
+[Visit the live site](https://dream.myassin.georgetown.domains/){.btn .btn-primary}
 
 ![](/images/projects/dream-card.jpg){fig-alt="The American Dream, Audited figure"}
 

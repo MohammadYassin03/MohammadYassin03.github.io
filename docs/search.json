@@ -67,14 +67,14 @@
     "href": "projects/olive-trees.html",
     "title": "What the Olive Trees Saw",
     "section": "",
-    "text": "A data-driven narrative about settlement expansion in the West Bank and its environmental and human impact. The project combines settlement footprints from Peace Now, event data from ACLED, and land use traced through OpenStreetMap and UN OCHA boundaries to test three claims: that expansion is continuous and increasing, that it grows close to Palestinian communities and farmland, and that olive groves sit at the intersection of it."
+    "text": "Visit the live site\nA data-driven narrative about settlement expansion in the West Bank and its environmental and human impact. The project combines settlement footprints from Peace Now, event data from ACLED, and land use traced through OpenStreetMap and UN OCHA boundaries to test three claims: that expansion is continuous and increasing, that it grows close to Palestinian communities and farmland, and that olive groves sit at the intersection of it."
   },
   {
     "objectID": "projects/olive-trees.html#what-is-in-it",
     "href": "projects/olive-trees.html#what-is-in-it",
     "title": "What the Olive Trees Saw",
     "section": "What is in it",
-    "text": "What is in it\n\nTerritorial and heat maps of events against settlement growth\nSettlement-proximity analysis for communities and agricultural land\nLinked views connecting harvest-season targeting, perpetrators, damage types and fatalities\nBefore-and-after satellite comparisons of individual villages\n\nIt is a personal project as well as a technical one: the author’s family is Palestinian, and the harvest calendar is part of how they grew up.\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5200 Data Visualization, Georgetown University\nDate: Spring 2026\nTeam: Solo project\nTools: Python, Plotly, geospatial analysis, ACLED, OpenStreetMap, UN OCHA, Peace Now, Quarto\n\nView repository"
+    "text": "What is in it\n\nTerritorial and heat maps of events against settlement growth\nSettlement-proximity analysis for communities and agricultural land\nLinked views connecting harvest-season targeting, perpetrators, damage types and fatalities\nBefore-and-after satellite comparisons of individual villages\n\nIt is a personal project as well as a technical one: the author’s family is Palestinian, and the harvest calendar is part of how they grew up.\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5200 Data Visualization, Georgetown University\nDate: Spring 2026\nTeam: Solo project\nTools: Python, Plotly, geospatial analysis, ACLED, OpenStreetMap, UN OCHA, Peace Now, Quarto\n\nView live site View repository"
   },
   {
     "objectID": "projects/fm-inference.html",
@@ -95,7 +95,7 @@
     "href": "projects/dream-audit.html",
     "title": "The American Dream, Audited",
     "section": "",
-    "text": "A data-driven audit of what the American Dream actually paid out between 1960 and today, across three life stages and several demographic groups. Instead of treating the Dream as a sentiment, the project measures it in one unit: hours of full-time labor."
+    "text": "Visit the live site\nA data-driven audit of what the American Dream actually paid out between 1960 and today, across three life stages and several demographic groups. Instead of treating the Dream as a sentiment, the project measures it in one unit: hours of full-time labor."
   },
   {
     "objectID": "projects/dream-audit.html#headline-findings",
