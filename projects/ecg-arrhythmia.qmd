@@ -1,0 +1,47 @@
+---
+title: "ECG Arrhythmia Detection"
+subtitle: "A Comparative Study of CNN, Transformer and Hybrid Architectures for ECG Arrhythmia Detection"
+description: "CNN vs. Transformer vs. hybrid models on the MIT-BIH database."
+image: /images/projects/ecg-confusion.jpg
+categories: ["Deep Learning"]
+order: 4
+---
+
+::: {layout-ncol=3}
+![](/images/projects/ecg-confusion.jpg){fig-alt="ECG Arrhythmia Detection figure"}
+
+![](/images/projects/ecg-smote.jpg){fig-alt="ECG Arrhythmia Detection figure"}
+
+![](/images/projects/ecg-attention.jpg){fig-alt="ECG Arrhythmia Detection figure"}
+:::
+
+We built and compared three deep-learning approaches for classifying heartbeats from the MIT-BIH Arrhythmia Database into four classes: Normal, Supraventricular, Ventricular and Fusion. About 89% of beats are Normal, so models were selected on macro F1 rather than accuracy.
+
+## Approach
+
+- 250-sample windows around each R-peak, plus patient metadata and RR-interval features
+- Partial SMOTE oversampling of minority classes; four augmentations for the hybrid model
+- CNN baseline on 64x64 log-magnitude STFT spectrograms
+- Transformer baseline on z-scored raw waveforms with patch embedding
+- Hybrid: pretrained EfficientNet-B0 patch tokens plus a metadata token fed to a Transformer encoder
+- Random hyperparameter search (15 configurations) per model
+
+## Results (test set)
+
+| Model                      | Params | Accuracy | Macro F1 |
+|----------------------------|--------|----------|----------|
+| CNN baseline               | 138k   | 0.990    | 0.930    |
+| Transformer (raw waveform) | 103k   | 0.976    | 0.858    |
+| Hybrid CNN-Transformer     | 6.6M   | 0.986    | 0.897    |
+
+The small dual-branch CNN won on macro F1. The hybrid improved Supraventricular F1 but lost ground on the rare Fusion class.
+
+::: {.callout-note appearance="minimal"}
+## Project info
+- **Course:** DSAN 6600 Neural Networks and Deep Learning, Georgetown University
+- **Date:** Spring 2026
+- **Team:** Team project with Matthew Hakim, Laurent Julia Calac and Yi-Ting Chin
+- **Tools:** Python, PyTorch, EfficientNet-B0, Transformers, WFDB, SMOTE, STFT spectrograms
+
+[View repository](https://github.com/verness/6600-Project){.btn .btn-primary .btn-sm}
+:::

@@ -1,0 +1,43 @@
+---
+title: "Coursework Labs"
+subtitle: "Coursework Labs"
+description: "Labs from DSAN 5000, 5100 and 5200 in Python and R."
+image: /images/projects/labs-card.svg
+categories: ["Coursework"]
+order: 11
+---
+
+![](/images/projects/labs-card.svg){fig-alt="Coursework Labs figure"}
+
+A selection of labs from the core Data Science and Analytics sequence. These are short, focused exercises rather than full projects.
+
+## DSAN 5000: Data Science Foundations (Python)
+
+- Cleaning tabular data
+- Regression fundamentals
+- Classification and feature selection
+- Network analysis with NetworkX
+
+## DSAN 5100: Probabilistic Modeling (R)
+
+- Conditional probability and continuous distributions
+- Markov chains (cave, maze and stock-market examples)
+- Time series
+
+## DSAN 5200: Data Visualization
+
+- Interactive charts with Plotly and Altair (including Hong Kong hospital wait times)
+- Shiny dashboards
+- Geospatial maps
+- Network visualization in Gephi
+- Time series and Tableau
+
+::: {.callout-note appearance="minimal"}
+## Project info
+- **Course:** DSAN 5000, 5100 and 5200, Georgetown University
+- **Date:** Fall 2025 to Spring 2026
+- **Team:** Individual labs
+- **Tools:** Python, R, Quarto, Plotly, Altair, Shiny, Tableau, Gephi, NetworkX
+
+
+:::

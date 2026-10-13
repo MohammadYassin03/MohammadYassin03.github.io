@@ -1,0 +1,29 @@
+---
+title: "Foundation Model Inference APIs"
+subtitle: "Foundation Model Inference APIs"
+description: "Calling LLMs and embedding models locally and through three cloud API formats."
+image: /images/projects/fm-card.svg
+categories: ["GenAI Engineering"]
+order: 9
+---
+
+![](/images/projects/fm-card.svg){fig-alt="Foundation Model Inference APIs figure"}
+
+A hands-on study of how requests and responses work for foundation models, both on a local machine with Ollama and in the cloud.
+
+## Covered
+
+- Raw HTTP calls with curl and httpx, in synchronous and asynchronous form, plus the official Python clients
+- Zero-shot and few-shot prompting, temperature, top_p, stop sequences, reasoning effort, streaming and token usage
+- Embedding models and saved output for generation, embedding and async runs
+- A written comparison of the OpenAI Chat Completions, OpenAI Responses and Anthropic Messages APIs: where the reply text, cut-off signal and reasoning tokens live in each, plus fields the course guide left out
+
+::: {.callout-note appearance="minimal"}
+## Project info
+- **Course:** DSAN 6725 Applied Generative AI, Georgetown University
+- **Date:** Fall 2026
+- **Team:** Solo project
+- **Tools:** Python, Ollama, httpx, OpenAI, Anthropic and Groq APIs, curl
+
+
+:::

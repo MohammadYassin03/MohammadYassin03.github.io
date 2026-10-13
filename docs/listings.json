@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/dream-audit.html",
+      "/projects/olive-trees.html",
+      "/projects/supply-chain.html",
+      "/projects/ecg-arrhythmia.html",
+      "/projects/political-speech-nlp.html",
+      "/projects/refugee-influx.html",
+      "/projects/fmbench-hardening.html",
+      "/projects/basic-rag.html",
+      "/projects/fm-inference.html",
+      "/projects/prompt-engineering.html",
+      "/projects/coursework-labs.html"
+    ]
+  }
+]

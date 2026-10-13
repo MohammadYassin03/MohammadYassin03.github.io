@@ -1,0 +1,29 @@
+---
+title: "Rhetorical Adaptation in Political Speech"
+subtitle: "Rhetorical Adaptation in Political Speech"
+description: "How politicians change their language and sentiment by audience."
+image: /images/projects/nlp-packages.jpg
+categories: ["NLP"]
+order: 5
+---
+
+![](/images/projects/nlp-packages.jpg){fig-alt="Rhetorical Adaptation in Political Speech figure"}
+
+This project asks how political figures such as Bernie Sanders, JD Vance and Ron DeSantis adjust their language and sentiment depending on context: rallies, Senate floor speeches and bipartisan settings.
+
+## What we built
+
+- Three installable Python packages (data collection, preprocessing, utils) managed with Poetry and covered by pytest
+- A config-driven speech downloader that scrapes transcripts by politician and category
+- A text cleaner that keeps proper nouns, numbers and sentence structure for linguistic analysis
+- Notebooks for EDA, Stanza-based linguistic features, n-gram extraction and sentiment analysis
+
+::: {.callout-note appearance="minimal"}
+## Project info
+- **Course:** DSAN 5400 Computational Linguistics, Georgetown University
+- **Date:** Fall 2025
+- **Team:** Team project with Erin Brzusek, Vinny Turtora, Sebastian Villalobos and Nikhil Patla
+- **Tools:** Python, NLTK, Stanza, sentiment analysis, n-grams, Poetry, pytest
+
+[View repository](https://github.com/np767/5400_Final_Project){.btn .btn-primary .btn-sm}
+:::

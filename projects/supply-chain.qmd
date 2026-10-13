@@ -1,0 +1,31 @@
+---
+title: "Supply Chain Visibility Platform"
+subtitle: "Supply Chain Visibility Platform"
+description: "Real-time shipment tracking on AWS with route and ETA analytics."
+image: /images/projects/supply-chain-architecture.svg
+categories: ["Cloud / Engineering"]
+order: 3
+---
+
+![](/images/projects/supply-chain-architecture.svg){fig-alt="Supply Chain Visibility Platform figure"}
+
+Shipment trackers are unreliable across the Middle East, so we built a cloud platform for logistics companies running import and export flows in the region. Iraq is the demo environment: simulated trucks move between Basra Port, Umm Qasr and depots in Baghdad, Mosul, Erbil and Kirkuk.
+
+## Architecture
+
+- A Python simulator sends batches of shipment events to API Gateway
+- Lambda validates and normalizes each batch, writes it to DynamoDB, and archives the raw batch to S3
+- A Streamlit dashboard queries DynamoDB to show a live map, delivery-status breakdown and an active-shipments table
+- OSRM routing and distance-based ETA predictions flag detours and late deliveries
+
+The full report covers data collection, cleaning, supervised and unsupervised analysis, and the AWS design.
+
+::: {.callout-note appearance="minimal"}
+## Project info
+- **Course:** DSAN 5000, Georgetown University
+- **Date:** Fall 2025
+- **Team:** Team project with Sazan Khalid and classmates
+- **Tools:** AWS (API Gateway, Lambda, DynamoDB, S3, IAM, CloudWatch), Python, Streamlit, OSRM, Quarto
+
+[View repository](https://github.com/sazandkhalid/supply_chain_tracker){.btn .btn-primary .btn-sm}
+:::

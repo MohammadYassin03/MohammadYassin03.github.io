@@ -1,0 +1,39 @@
+---
+title: "Prompt Engineering, Measured"
+subtitle: "Prompt Engineering, Measured"
+description: "Testing what each part of a prompt is worth with a small local model."
+image: /images/projects/prompt-card.svg
+categories: ["GenAI Engineering"]
+order: 10
+---
+
+![](/images/projects/prompt-card.svg){fig-alt="Prompt Engineering, Measured figure"}
+
+Instead of tweaking prompts by feel, I scored them. Everything ran on a small local model (gemma3:1b) at temperature 0 with a fixed seed, so differences came from the prompt alone.
+
+## Sentiment classification, 100 movie reviews
+
+| Prompt                                 | Accuracy | Unparseable replies |
+|----------------------------------------|----------|---------------------|
+| Naive                                  | 0%       | 100                 |
+| Structured (role, tags, output format) | 84%      | 0                   |
+| Structured + few-shot examples         | 86%      | 0                   |
+
+Always answering 'negative' scores 58%, so both structured versions are well above guessing. The naive prompt scored zero only because its replies could not be parsed.
+
+## Other tasks
+
+- Meeting summarization with action items
+- Document QA with a refusal rule. A finding worth reporting: the model never refused either unanswerable question, with or without the constraint, so I documented the failure instead of hiding it.
+- Jinja prompt templates rendered from JSON inputs
+- A five-turn stateless shopping chatbot with automated checks on its replies
+
+::: {.callout-note appearance="minimal"}
+## Project info
+- **Course:** DSAN 6725 Applied Generative AI, Georgetown University
+- **Date:** Fall 2026
+- **Team:** Solo project
+- **Tools:** Python, Ollama (gemma3:1b), Jinja2, JSON
+
+
+:::

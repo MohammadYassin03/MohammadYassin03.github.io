@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.skill-group { margin-bottom: 0.9rem; }
+.skill-group > strong { display: block; font-size: 0.9rem; margin-bottom: 0.3rem; }
+.skill-tag {
+  display: inline-block; margin: 0 0.35rem 0.35rem 0; padding: 0.15rem 0.7rem;
+  font-size: 0.8rem; border-radius: 999px; background: #e3f1f9; color: #0b5f8a;
+}
+
+/* project grid cards: uniform thumbnails */
+.quarto-grid-item .card-img-top { background: #f4f6f9; }
+.quarto-grid-item .thumbnail-image { object-fit: contain !important; height: 180px !important; }
+.quarto-grid-item .card-title { font-size: 1.05rem; }
+
+.callout.callout-style-simple, .callout { margin-top: 2rem; }

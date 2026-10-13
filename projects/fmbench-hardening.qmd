@@ -1,0 +1,44 @@
+---
+title: "Hardening and Modernizing FMBench"
+subtitle: "Understand, Harden and Modernize a Real GenAI Codebase"
+description: "Characterization tests, static analysis and de-notebooking for an 8,000-line AWS tool."
+image: /images/projects/fmbench-card.svg
+categories: ["GenAI Engineering"]
+order: 7
+---
+
+![](/images/projects/fmbench-card.svg){fig-alt="Hardening and Modernizing FMBench figure"}
+
+FMBench is an AWS tool that benchmarks foundation models across SageMaker, Bedrock, EKS and EC2. The constraint of this assignment: the pipeline cannot be run (it needs AWS infrastructure, quota and spend), so every change had to be made and verified without executing it. I used coding agents for the heavy lifting and treated verifying their work as the main skill.
+
+## What I did
+
+- **Understood it:** wrote an explainer, module map and architecture diagram, and recorded where the AI's first reading of the code was wrong and how I caught it.
+- **Hardened it:** wrote 138 characterization tests, configured ruff, bandit, mypy and pytest, and triaged every bandit finding by hand with a verdict and justification.
+- **De-notebooked it:** its production pipeline was seven Jupyter notebooks executed by papermill. I made the case against that design and replaced the runner with a plain orchestrator, converting two notebooks, backed by stubbed unit tests and a call-sequence golden master.
+- **Cross-checked it:** had a second model review the refactor and adjudicated its findings against a rubric.
+
+## Measured results (modules in scope)
+
+| Check           | Before | After |
+|-----------------|--------|-------|
+| Test coverage   | 0%     | 96.9% |
+| ruff findings   | 58     | 1     |
+| mypy errors     | 32     | 0     |
+| bandit findings | 7      | 3     |
+
+The tools also surfaced real bugs, such as a module that calls `logging.error` without importing `logging`.
+
+::: {.callout-note appearance="minimal"}
+## Project info
+- **Understood it::** wrote an explainer, module map and architecture diagram, and recorded where the AI's first reading of the code was wrong and how I caught it.
+- **Hardened it::** wrote 138 characterization tests, configured ruff, bandit, mypy and pytest, and triaged every bandit finding by hand with a verdict and justification.
+- **De-notebooked it::** its production pipeline was seven Jupyter notebooks executed by papermill. I made the case against that design and replaced the runner with a plain orchestrator, converting two notebooks, backed by stubbed unit tests and a call-sequence golden master.
+- **Cross-checked it::** had a second model review the refactor and adjudicated its findings against a rubric.
+- **Course:** DSAN 6725 Applied Generative AI, Georgetown University
+- **Date:** Fall 2026
+- **Team:** Solo project
+- **Tools:** Python, pytest, ruff, bandit, mypy, papermill, Claude Code
+
+
+:::

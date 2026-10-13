@@ -1,0 +1,49 @@
+---
+title: "Resume"
+---
+
+## Summary
+
+Computer Science graduate (B.S., 2025) and M.S. candidate in Data Science & Analytics at Georgetown University. I blend technical rigor (Python, R, SQL, machine learning) with strategic vision, translating data into actionable insights and guiding cross-functional teams to deliver measurable impact.
+
+Washington, DC · m.a.yassin707@gmail.com
+
+## Education
+
+**Master of Science in Data Science & Analytics**, 2025 - 2027\
+*Georgetown University, Washington, DC*\
+Relevant coursework: Data Science and Analytics, Probabilistic Modeling and Statistical Computing, Computational Linguistics (Advanced Python)
+
+**Bachelor of Science in Computer Science**, 2021 - 2025\
+*Hobart and William Smith Colleges, Geneva, NY*\
+Minors: Data Analytics, Entrepreneurial Studies\
+Achievements: Hobart Dean's List, Alger L. Adams Scholar, The Elizabeth and Ruth Young Peace Prize, The Martin Luther King Jr. Leadership Award, The Hobart and William Smith Spirit Award (Class of 2025)
+
+## Professional Experience
+
+**Product Marketing Intern**, 2025 - Present\
+*Yallah Medical, Remote, NY*
+
+- Conducted market and competitor analysis to inform product roadmap and identify opportunities to differentiate digital health services
+- Collaborated with designers and developers to restructure website architecture, improving navigation and aligning features with user needs
+- Produced blog content and social media campaigns that grew user engagement and demonstrated product value
+
+**Research Assistant Lead**, June 2024 - August 2024\
+*Data Analytics Department @ HWS, Geneva, NY*
+
+- Designed foundational data systems enabling a three-year environmental analytics project, ensuring scalability and continuity
+- Led a cross-functional team of 5 student researchers in deploying a citywide IoT sensor network, coordinating data collection, technical design, and analysis
+
+**Data Science Intern**, June 2023 - May 2025\
+*Career Services, Hobart and William Smith Colleges, Geneva, NY*
+
+- Built a data pipeline in R to analyze employment trends among 5K+ graduates and inform strategy for student career readiness
+- Delivered recommendations that improved employability, demonstrating ability to derive actionable insights from large datasets
+- Designed an interactive dashboard to visualize enrollment data, enhancing accessibility for 200+ faculty members
+
+**Co-Founder, Mobile Active Recovery Service**, June 2022 - August 2022\
+*HWS Summer Sandbox Accelerator, Geneva, NY*
+
+- Among 15 winners selected from 200+ candidates to start a venture with the Startup Accelerator program
+- Engaged in user and market research, pitch deck creation, and business development using lean startup methods
+- Defined MVP requirements through 100+ customer interviews; collaborated with developers and mentors to prototype and pitch winning product concept

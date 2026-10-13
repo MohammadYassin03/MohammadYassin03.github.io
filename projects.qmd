@@ -1,0 +1,13 @@
+---
+title: "Projects"
+subtitle: "Selected work from my Data Science & Analytics coursework at Georgetown"
+listing:
+  contents: projects
+  type: grid
+  grid-columns: 3
+  sort: "order"
+  categories: true
+  fields: [image, title, description, categories]
+  page-size: 12
+page-layout: full
+---
