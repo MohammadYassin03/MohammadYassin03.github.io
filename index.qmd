@@ -5,6 +5,9 @@ about:
   image: images/profile.jpg
   image-width: 14em
   links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/mohammad-yassin03/
     - icon: github
       text: GitHub
       href: https://github.com/MohammadYassin03

@@ -16,8 +16,9 @@ website:
         text: Projects
       - href: resume.qmd
         text: Resume
-      - href: contact.qmd
-        text: Contact
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mohammad-yassin03/
+        aria-label: LinkedIn
       - icon: github
         href: https://github.com/MohammadYassin03
         aria-label: GitHub

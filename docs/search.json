@@ -126,13 +126,6 @@
     "text": "What I explored\n\nAnswering: 12 year-specific questions answered from retrieved context.\nHallucination: prompts designed to push the model into inventing answers, and how grounding changes that.\nMetadata: putting the year into the chunk text, then query rewriting, to fix retrieval that mixes up years.\nRetrieval strategies: Qdrant payload filtering, MMR for diversity, and a BM25 plus vector hybrid, compared on the same questions.\nWrite-up: a hand-written explanation of RAG and a FAISS vs. Qdrant comparison.\n\n\n\n\n\n\n\nProject info\n\n\n\n\nAnswering:: 12 year-specific questions answered from retrieved context.\nHallucination:: prompts designed to push the model into inventing answers, and how grounding changes that.\nMetadata:: putting the year into the chunk text, then query rewriting, to fix retrieval that mixes up years.\nRetrieval strategies:: Qdrant payload filtering, MMR for diversity, and a BM25 plus vector hybrid, compared on the same questions.\nWrite-up:: a hand-written explanation of RAG and a FAISS vs. Qdrant comparison.\nCourse: DSAN 6725 Applied Generative AI, Georgetown University\nDate: Fall 2026\nTeam: Solo project\nTools: Python, LangChain, Qdrant, Ollama, BM25, uv"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Reach out if you have any questions. You can also email me directly at m.a.yassin707@gmail.com.\n\n  \n  \n  \n  \n  \n    \n    \n    \n    \n    Send message"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mohammad Yassin",
