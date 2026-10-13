@@ -1,9 +1,0 @@
-# legacy template site, kept at repo root only until GitHub Pages is switched to /docs
-index.html
-portfolio-details.html
-project-*.html
-service-details.html
-starter-page.html
-assets/
-forms/
-Readme.txt
