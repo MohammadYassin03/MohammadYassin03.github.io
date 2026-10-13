@@ -13,3 +13,12 @@
 .quarto-grid-item .card-title { font-size: 1.05rem; }
 
 .callout.callout-style-simple, .callout { margin-top: 2rem; }
+
+/* Highlight the scholarship-winning project */
+.listing-category[onclick*="U2Nob2xhcnNoaXAlMjBXaW5uZXI"] {
+  background: #f5c542; color: #4a3500; font-weight: 700; border-color: #d9a400;
+}
+.listing-category[onclick*="U2Nob2xhcnNoaXAlMjBXaW5uZXI"]::before { content: "\2605  "; }
+.quarto-grid-item:has(.listing-category[onclick*="U2Nob2xhcnNoaXAlMjBXaW5uZXI"]) {
+  border: 2px solid #f5c542; box-shadow: 0 0 0 3px rgba(245, 197, 66, 0.25);
+}

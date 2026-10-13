@@ -1,8 +1,8 @@
 ---
 title: "The American Dream, Audited"
-description: "Six decades of US economic data, measured in hours of labor."
+description: "DSAN Scholarship winner. Six decades of US economic data, measured in hours of labor."
 image: /images/projects/dream-card.jpg
-categories: ["Data Storytelling"]
+categories: ["Scholarship Winner", "Data Storytelling"]
 order: 1
 ---
 
