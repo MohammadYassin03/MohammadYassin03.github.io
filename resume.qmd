@@ -2,6 +2,8 @@
 title: "Resume"
 ---
 
+[Download PDF](resume.pdf){.btn .btn-primary .btn-sm download="Mohammad-Yassin-Resume.pdf"}
+
 ## Summary
 
 Computer Science graduate (B.S., 2025) and M.S. candidate in Data Science & Analytics at Georgetown University. I blend technical rigor (Python, R, SQL, machine learning) with strategic vision, translating data into actionable insights and guiding cross-functional teams to deliver measurable impact.
