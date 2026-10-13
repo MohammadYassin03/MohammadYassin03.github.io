@@ -24,7 +24,7 @@ The full report covers data collection, cleaning, supervised and unsupervised an
 ## Project info
 - **Course:** DSAN 5000, Georgetown University
 - **Date:** Fall 2025
-- **Team:** Team project with Sazan Khalid and classmates
+- **Team:** Team project
 - **Tools:** AWS (API Gateway, Lambda, DynamoDB, S3, IAM, CloudWatch), Python, Streamlit, OSRM, Quarto
 
 [View repository](https://github.com/sazandkhalid/supply_chain_tracker){.btn .btn-primary .btn-sm}

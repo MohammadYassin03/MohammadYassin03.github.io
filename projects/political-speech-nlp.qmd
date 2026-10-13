@@ -22,7 +22,7 @@ This project asks how political figures such as Bernie Sanders, JD Vance and Ron
 ## Project info
 - **Course:** DSAN 5400 Computational Linguistics, Georgetown University
 - **Date:** Fall 2025
-- **Team:** Team project with Erin Brzusek, Vinny Turtora, Sebastian Villalobos and Nikhil Patla
+- **Team:** Team project
 - **Tools:** Python, NLTK, Stanza, sentiment analysis, n-grams, Poetry, pytest
 
 [View repository](https://github.com/np767/5400_Final_Project){.btn .btn-primary .btn-sm}

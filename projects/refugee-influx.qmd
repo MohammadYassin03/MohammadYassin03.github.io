@@ -33,7 +33,7 @@ We built a country-year panel (170 countries, 4,929 observations, 1992-2024) fro
 ## Project info
 - **Course:** DSAN 5300 Statistical Learning, Georgetown University
 - **Date:** Spring 2026
-- **Team:** Team project with Tyler Blue, Alexander Garcia and Sazan Khalid
+- **Team:** Team project
 - **Tools:** Python, XGBoost, scikit-learn, UNHCR, UCDP, World Bank, DWRAP
 
 [View repository](https://github.com/dsan-5300/2026-project-2026-20){.btn .btn-primary .btn-sm}

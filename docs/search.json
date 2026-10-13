@@ -46,7 +46,7 @@
     "href": "projects/supply-chain.html#architecture",
     "title": "Supply Chain Visibility Platform",
     "section": "Architecture",
-    "text": "Architecture\n\nA Python simulator sends batches of shipment events to API Gateway\nLambda validates and normalizes each batch, writes it to DynamoDB, and archives the raw batch to S3\nA Streamlit dashboard queries DynamoDB to show a live map, delivery-status breakdown and an active-shipments table\nOSRM routing and distance-based ETA predictions flag detours and late deliveries\n\nThe full report covers data collection, cleaning, supervised and unsupervised analysis, and the AWS design.\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5000, Georgetown University\nDate: Fall 2025\nTeam: Team project with Sazan Khalid and classmates\nTools: AWS (API Gateway, Lambda, DynamoDB, S3, IAM, CloudWatch), Python, Streamlit, OSRM, Quarto\n\nView repository"
+    "text": "Architecture\n\nA Python simulator sends batches of shipment events to API Gateway\nLambda validates and normalizes each batch, writes it to DynamoDB, and archives the raw batch to S3\nA Streamlit dashboard queries DynamoDB to show a live map, delivery-status breakdown and an active-shipments table\nOSRM routing and distance-based ETA predictions flag detours and late deliveries\n\nThe full report covers data collection, cleaning, supervised and unsupervised analysis, and the AWS design.\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5000, Georgetown University\nDate: Fall 2025\nTeam: Team project\nTools: AWS (API Gateway, Lambda, DynamoDB, S3, IAM, CloudWatch), Python, Streamlit, OSRM, Quarto\n\nView repository"
   },
   {
     "objectID": "projects/prompt-engineering.html",
@@ -193,7 +193,7 @@
     "href": "projects/ecg-arrhythmia.html#results-test-set",
     "title": "ECG Arrhythmia Detection",
     "section": "Results (test set)",
-    "text": "Results (test set)\n\n\n\nModel\nParams\nAccuracy\nMacro F1\n\n\n\n\nCNN baseline\n138k\n0.990\n0.930\n\n\nTransformer (raw waveform)\n103k\n0.976\n0.858\n\n\nHybrid CNN-Transformer\n6.6M\n0.986\n0.897\n\n\n\nThe small dual-branch CNN won on macro F1. The hybrid improved Supraventricular F1 but lost ground on the rare Fusion class.\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 6600 Neural Networks and Deep Learning, Georgetown University\nDate: Spring 2026\nTeam: Team project with Matthew Hakim, Laurent Julia Calac and Yi-Ting Chin\nTools: Python, PyTorch, EfficientNet-B0, Transformers, WFDB, SMOTE, STFT spectrograms\n\nView repository"
+    "text": "Results (test set)\n\n\n\nModel\nParams\nAccuracy\nMacro F1\n\n\n\n\nCNN baseline\n138k\n0.990\n0.930\n\n\nTransformer (raw waveform)\n103k\n0.976\n0.858\n\n\nHybrid CNN-Transformer\n6.6M\n0.986\n0.897\n\n\n\nThe small dual-branch CNN won on macro F1. The hybrid improved Supraventricular F1 but lost ground on the rare Fusion class.\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 6600 Neural Networks and Deep Learning, Georgetown University\nDate: Spring 2026\nTeam: Team project\nTools: Python, PyTorch, EfficientNet-B0, Transformers, WFDB, SMOTE, STFT spectrograms\n\nView repository"
   },
   {
     "objectID": "projects/fmbench-hardening.html",
@@ -228,7 +228,7 @@
     "href": "projects/political-speech-nlp.html#what-we-built",
     "title": "Rhetorical Adaptation in Political Speech",
     "section": "What we built",
-    "text": "What we built\n\nThree installable Python packages (data collection, preprocessing, utils) managed with Poetry and covered by pytest\nA config-driven speech downloader that scrapes transcripts by politician and category\nA text cleaner that keeps proper nouns, numbers and sentence structure for linguistic analysis\nNotebooks for EDA, Stanza-based linguistic features, n-gram extraction and sentiment analysis\n\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5400 Computational Linguistics, Georgetown University\nDate: Fall 2025\nTeam: Team project with Erin Brzusek, Vinny Turtora, Sebastian Villalobos and Nikhil Patla\nTools: Python, NLTK, Stanza, sentiment analysis, n-grams, Poetry, pytest\n\nView repository"
+    "text": "What we built\n\nThree installable Python packages (data collection, preprocessing, utils) managed with Poetry and covered by pytest\nA config-driven speech downloader that scrapes transcripts by politician and category\nA text cleaner that keeps proper nouns, numbers and sentence structure for linguistic analysis\nNotebooks for EDA, Stanza-based linguistic features, n-gram extraction and sentiment analysis\n\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5400 Computational Linguistics, Georgetown University\nDate: Fall 2025\nTeam: Team project\nTools: Python, NLTK, Stanza, sentiment analysis, n-grams, Poetry, pytest\n\nView repository"
   },
   {
     "objectID": "projects/refugee-influx.html",
@@ -249,7 +249,7 @@
     "href": "projects/refugee-influx.html#findings",
     "title": "Predicting Refugee Influx",
     "section": "Findings",
-    "text": "Findings\n\nHoldout ROC-AUC rose from 0.793 (logistic regression) to 0.839 (XGBoost with the 12 policy indices)\nNo conflict feature reached the top ten by permutation importance, since lagged refugee counts already absorb recent conflict\nThe model under-predicts sudden shocks such as Syria 2015, Afghanistan 2021 and Ukraine 2022\n\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5300 Statistical Learning, Georgetown University\nDate: Spring 2026\nTeam: Team project with Tyler Blue, Alexander Garcia and Sazan Khalid\nTools: Python, XGBoost, scikit-learn, UNHCR, UCDP, World Bank, DWRAP\n\nView repository"
+    "text": "Findings\n\nHoldout ROC-AUC rose from 0.793 (logistic regression) to 0.839 (XGBoost with the 12 policy indices)\nNo conflict feature reached the top ten by permutation importance, since lagged refugee counts already absorb recent conflict\nThe model under-predicts sudden shocks such as Syria 2015, Afghanistan 2021 and Ukraine 2022\n\n\n\n\n\n\n\nProject info\n\n\n\n\nCourse: DSAN 5300 Statistical Learning, Georgetown University\nDate: Spring 2026\nTeam: Team project\nTools: Python, XGBoost, scikit-learn, UNHCR, UCDP, World Bank, DWRAP\n\nView repository"
   },
   {
     "objectID": "projects.html",
