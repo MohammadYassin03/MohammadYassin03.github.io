@@ -4,28 +4,35 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Download PDF"
-  },
-  {
-    "objectID": "resume.html#summary",
-    "href": "resume.html#summary",
-    "title": "Resume",
-    "section": "Summary",
-    "text": "Summary\nComputer Science graduate (B.S., 2025) and M.S. candidate in Data Science & Analytics at Georgetown University. I blend technical rigor (Python, R, SQL, machine learning) with strategic vision, translating data into actionable insights and guiding cross-functional teams to deliver measurable impact.\nWashington, DC · m.a.yassin707@gmail.com"
+    "text": "Download PDF\nWashington, DC · m.a.yassin707@gmail.com · linkedin.com/in/mohammad-yassin03"
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
     "title": "Resume",
     "section": "Education",
-    "text": "Education\nMaster of Science in Data Science & Analytics, 2025 - 2027\nGeorgetown University, Washington, DC\nRelevant coursework: Data Science and Analytics, Probabilistic Modeling and Statistical Computing, Computational Linguistics (Advanced Python)\nBachelor of Science in Computer Science, 2021 - 2025\nHobart and William Smith Colleges, Geneva, NY\nMinors: Data Analytics, Entrepreneurial Studies\nAchievements: Hobart Dean’s List, Alger L. Adams Scholar, The Elizabeth and Ruth Young Peace Prize, The Martin Luther King Jr. Leadership Award, The Hobart and William Smith Spirit Award (Class of 2025)"
+    "text": "Education\nGeorgetown University, Washington, DC · 2025-2027\n\nMaster’s in Data Science & Analytics, Artificial Intelligence Concentration\n\nGPA: 4.00/4.00\nAchievements: DSAN Scholarship winner, The American Dream, Audited\n\n\nHobart and William Smith Colleges, Geneva, NY · 2021-2025\n\nBachelor of Science, Computer Science\n\nGPA: 3.91/4.0\nMinors: Data Analytics, Entrepreneurial Studies\nAchievements: Elizabeth & Ruth Young Peace Prize, MLK Jr. Leadership Award, HWS Spirit Award"
   },
   {
-    "objectID": "resume.html#professional-experience",
-    "href": "resume.html#professional-experience",
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
     "title": "Resume",
-    "section": "Professional Experience",
-    "text": "Professional Experience\nProduct Marketing Intern, 2025 - Present\nYallah Medical, Remote, NY\n\nConducted market and competitor analysis to inform product roadmap and identify opportunities to differentiate digital health services\nCollaborated with designers and developers to restructure website architecture, improving navigation and aligning features with user needs\nProduced blog content and social media campaigns that grew user engagement and demonstrated product value\n\nResearch Assistant Lead, June 2024 - August 2024\nData Analytics Department @ HWS, Geneva, NY\n\nDesigned foundational data systems enabling a three-year environmental analytics project, ensuring scalability and continuity\nLed a cross-functional team of 5 student researchers in deploying a citywide IoT sensor network, coordinating data collection, technical design, and analysis\n\nData Science Intern, June 2023 - May 2025\nCareer Services, Hobart and William Smith Colleges, Geneva, NY\n\nBuilt a data pipeline in R to analyze employment trends among 5K+ graduates and inform strategy for student career readiness\nDelivered recommendations that improved employability, demonstrating ability to derive actionable insights from large datasets\nDesigned an interactive dashboard to visualize enrollment data, enhancing accessibility for 200+ faculty members\n\nCo-Founder, Mobile Active Recovery Service, June 2022 - August 2022\nHWS Summer Sandbox Accelerator, Geneva, NY\n\nAmong 15 winners selected from 200+ candidates to start a venture with the Startup Accelerator program\nEngaged in user and market research, pitch deck creation, and business development using lean startup methods\nDefined MVP requirements through 100+ customer interviews; collaborated with developers and mentors to prototype and pitch winning product concept"
+    "section": "Experience",
+    "text": "Experience\nMassive Data Institute, Washington, DC\nData Science Researcher, May 2026 – Present\n\nDesigned and implemented a deepfake provenance-analysis prototype for TrueMedia (private beta), tracing 7 cases across 168 appearances on 10 platforms; automated coordination detection matched published DFRLab and Cyabra attributions\nBuilt a config-driven pipeline tracking attacks and AI-generated content in four 2026 Senate races, collecting 8,700+ posts across X, Reddit, TikTok, YouTube and Meta political ads with reach tiers and a human-verified AI-content review queue\nAnalyzed 36,000+ user judgments and 1,100+ free-text responses for a PNAS-under-review study of AI vs. human content detection, building a 14-category coding framework that showed which user strategies predict accuracy\n\nYallah Medical, Remote, US\nProduct Marketing Intern, June 2025 – August 2025\n\nInformed the product roadmap through market and competitor analysis, identifying opportunities to differentiate digital health services\nImproved navigation and UX by restructuring website architecture in collaboration with designers and developers\nGrew user engagement and demonstrated product value through blog content and social media campaigns\n\nData Analytics Department – Hobart and William Smith Colleges, Geneva, NY\nResearch Assistant Lead, June 2024 – August 2024\n\nDesigned foundational data systems enabling a three-year environmental analytics project, ensuring scalability and continuity\nLed a cross-functional team of 5 student researchers in deploying a citywide IoT sensor network, coordinating data collection, technical design, and analysis\n\nCareer Services – Hobart and William Smith Colleges, Geneva, NY\nData Science Intern, June 2023 – May 2024\n\nDesigned an interactive dashboard to visualize enrollment data, enhancing accessibility for 200+ faculty members\n\nHWS Summer Sandbox Accelerator, Geneva, NY\nCo-Founder - Mobile Active Recovery Service, June 2022 – August 2022\n\nAmongst 15 winners selected from 200+ candidates to start a venture with the Startup Accelerator program\nEngaged in user and market research, pitch deck creation, and business development using lean startup methods\nDefined MVP requirements through 100+ customer interviews; prototyped and pitched the winning product concept"
+  },
+  {
+    "objectID": "resume.html#leadership-activities",
+    "href": "resume.html#leadership-activities",
+    "title": "Resume",
+    "section": "Leadership & Activities",
+    "text": "Leadership & Activities\nHWS Computer Science and Data Analytics, Geneva, NY\nTeaching Fellow, August 2024 – May 2025\n\nLed three intro programming courses for 60+ students, achieving a 90% completion rate through mentorship and collaborative learning\n\nHWS Muslim Student Association, Geneva, NY\nClub President, September 2021 – May 2025\n\nGrew an inactive club into a 50+ member community, securing faculty sponsorship and a $9K annual budget"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "Skills",
+    "text": "Skills\n\nProduct & Strategy: Product Management, Market Research, UX Principles, Agile/Lean Startup\nData & Analytics: Python, R, SQL, Data Visualization (Tableau/Power BI), Statistical Modeling\nCollaboration & Tools: GitHub, Excel, Figma, Wix/WordPress, Microsoft Office Suite"
   },
   {
     "objectID": "projects/supply-chain.html",

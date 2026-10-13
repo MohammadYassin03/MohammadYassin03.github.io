@@ -4,48 +4,71 @@ title: "Resume"
 
 [Download PDF](resume.pdf){.btn .btn-primary .btn-sm download="Mohammad-Yassin-Resume.pdf"}
 
-## Summary
-
-Computer Science graduate (B.S., 2025) and M.S. candidate in Data Science & Analytics at Georgetown University. I blend technical rigor (Python, R, SQL, machine learning) with strategic vision, translating data into actionable insights and guiding cross-functional teams to deliver measurable impact.
-
-Washington, DC · m.a.yassin707@gmail.com
+Washington, DC · [m.a.yassin707@gmail.com](mailto:m.a.yassin707@gmail.com) · [linkedin.com/in/mohammad-yassin03](https://www.linkedin.com/in/mohammad-yassin03/)
 
 ## Education
 
-**Master of Science in Data Science & Analytics**, 2025 - 2027\
-*Georgetown University, Washington, DC*\
-Relevant coursework: Data Science and Analytics, Probabilistic Modeling and Statistical Computing, Computational Linguistics (Advanced Python)
+**Georgetown University**, Washington, DC · 2025-2027
 
-**Bachelor of Science in Computer Science**, 2021 - 2025\
-*Hobart and William Smith Colleges, Geneva, NY*\
-Minors: Data Analytics, Entrepreneurial Studies\
-Achievements: Hobart Dean's List, Alger L. Adams Scholar, The Elizabeth and Ruth Young Peace Prize, The Martin Luther King Jr. Leadership Award, The Hobart and William Smith Spirit Award (Class of 2025)
+- Master's in Data Science & Analytics, Artificial Intelligence Concentration
+  - **GPA**: 4.00/4.00
+  - **Achievements**: DSAN Scholarship winner, [The American Dream, Audited](https://dream.myassin.georgetown.domains/)
 
-## Professional Experience
+**Hobart and William Smith Colleges**, Geneva, NY · 2021-2025
 
-**Product Marketing Intern**, 2025 - Present\
-*Yallah Medical, Remote, NY*
+- Bachelor of Science, Computer Science
+  - **GPA**: 3.91/4.0
+  - **Minors**: Data Analytics, Entrepreneurial Studies
+  - **Achievements**: Elizabeth & Ruth Young Peace Prize, MLK Jr. Leadership Award, HWS Spirit Award
 
-- Conducted market and competitor analysis to inform product roadmap and identify opportunities to differentiate digital health services
-- Collaborated with designers and developers to restructure website architecture, improving navigation and aligning features with user needs
-- Produced blog content and social media campaigns that grew user engagement and demonstrated product value
+## Experience
 
-**Research Assistant Lead**, June 2024 - August 2024\
-*Data Analytics Department @ HWS, Geneva, NY*
+**Massive Data Institute**, Washington, DC\
+*Data Science Researcher*, May 2026 – Present
+
+- Designed and implemented a deepfake provenance-analysis prototype for TrueMedia (private beta), tracing 7 cases across 168 appearances on 10 platforms; automated coordination detection matched published DFRLab and Cyabra attributions
+- Built a config-driven pipeline tracking attacks and AI-generated content in four 2026 Senate races, collecting 8,700+ posts across X, Reddit, TikTok, YouTube and Meta political ads with reach tiers and a human-verified AI-content review queue
+- Analyzed 36,000+ user judgments and 1,100+ free-text responses for a PNAS-under-review study of AI vs. human content detection, building a 14-category coding framework that showed which user strategies predict accuracy
+
+**Yallah Medical**, Remote, US\
+*Product Marketing Intern*, June 2025 – August 2025
+
+- Informed the product roadmap through market and competitor analysis, identifying opportunities to differentiate digital health services
+- Improved navigation and UX by restructuring website architecture in collaboration with designers and developers
+- Grew user engagement and demonstrated product value through blog content and social media campaigns
+
+**Data Analytics Department – Hobart and William Smith Colleges**, Geneva, NY\
+*Research Assistant Lead*, June 2024 – August 2024
 
 - Designed foundational data systems enabling a three-year environmental analytics project, ensuring scalability and continuity
 - Led a cross-functional team of 5 student researchers in deploying a citywide IoT sensor network, coordinating data collection, technical design, and analysis
 
-**Data Science Intern**, June 2023 - May 2025\
-*Career Services, Hobart and William Smith Colleges, Geneva, NY*
+**Career Services – Hobart and William Smith Colleges**, Geneva, NY\
+*Data Science Intern*, June 2023 – May 2024
 
-- Built a data pipeline in R to analyze employment trends among 5K+ graduates and inform strategy for student career readiness
-- Delivered recommendations that improved employability, demonstrating ability to derive actionable insights from large datasets
 - Designed an interactive dashboard to visualize enrollment data, enhancing accessibility for 200+ faculty members
 
-**Co-Founder, Mobile Active Recovery Service**, June 2022 - August 2022\
-*HWS Summer Sandbox Accelerator, Geneva, NY*
+**HWS Summer Sandbox Accelerator**, Geneva, NY\
+*Co-Founder - Mobile Active Recovery Service*, June 2022 – August 2022
 
-- Among 15 winners selected from 200+ candidates to start a venture with the Startup Accelerator program
+- Amongst 15 winners selected from 200+ candidates to start a venture with the Startup Accelerator program
 - Engaged in user and market research, pitch deck creation, and business development using lean startup methods
-- Defined MVP requirements through 100+ customer interviews; collaborated with developers and mentors to prototype and pitch winning product concept
+- Defined MVP requirements through 100+ customer interviews; prototyped and pitched the winning product concept
+
+## Leadership & Activities
+
+**HWS Computer Science and Data Analytics**, Geneva, NY\
+*Teaching Fellow*, August 2024 – May 2025
+
+- Led three intro programming courses for 60+ students, achieving a 90% completion rate through mentorship and collaborative learning
+
+**HWS Muslim Student Association**, Geneva, NY\
+*Club President*, September 2021 – May 2025
+
+- Grew an inactive club into a 50+ member community, securing faculty sponsorship and a $9K annual budget
+
+## Skills
+
+- **Product & Strategy**: Product Management, Market Research, UX Principles, Agile/Lean Startup
+- **Data & Analytics**: Python, R, SQL, Data Visualization (Tableau/Power BI), Statistical Modeling
+- **Collaboration & Tools**: GitHub, Excel, Figma, Wix/WordPress, Microsoft Office Suite
